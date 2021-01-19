@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useState } from "react";
 import { AccountOption } from "../components/account_option";
 import styles from "../styles/Home.module.css";
-import { accounts as init } from "./sample_data";
+import { accounts as init } from "../data/sample_data";
 
 export default function Home() {
   const [accounts, setAccounts] = useState(init);
